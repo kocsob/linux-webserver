@@ -1,0 +1,26 @@
+#Run the webserver on given port: < number >
+PORT = 80
+
+#Maximum number of clients: < number >
+MAXCONNS = 100
+
+#The name of the runner user < username >
+USER = linprog
+
+#The root directory of the HTML files: < path >
+ROOT_DIR = /var/webserver/www
+
+#The directory of error html pages: < path >
+ERR_DIR = /var/webserver/error
+
+#The run command of cgi scripts < command >
+CGI_CMD = python
+
+#The root directory of cgi files: < path >
+CGI_DIR = /var/webserver/cgi
+
+#Syslog programname: < programname >
+SYSLOG_NAME = linprogwebs
+
+#DNS name resolution in log file: < 0 | 1 >
+DNS = 1
